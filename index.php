@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tafakari Symposium</title>
+
+    <!-- Bootstrap & Font Awesome -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #121212;
+            color: white;
+            font-family: 'Inter', sans-serif;
+        }
+
+        /* Navbar */
+        .navbar {
+            background-color: rgba(0, 0, 0, 0.85);
+        }
+
+        .navbar-brand img {
+            height: 50px;
+        }
+
+        .nav-link {
+            color: white !important;
+            transition: 0.3s;
+        }
+
+        .nav-link:hover {
+            color: #bbb !important;
+        }
+
+        .org-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+
+        /* Hero Section */
+        .hero {
+            background: url('symposium-bg.jpg') center/cover no-repeat;
+            color: white;
+            text-align: center;
+            padding: 120px 20px;
+            position: relative;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 20px;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .hero .btn {
+            margin-top: 20px;
+            font-size: 18px;
+            padding: 12px 25px;
+            border-radius: 30px;
+            background: #4B0082;
+            color: white;
+            transition: 0.3s;
+        }
+
+        .hero .btn:hover {
+            background: #5A00A1;
+        }
+
+        /* Sections */
+        .section {
+            padding: 60px 20px;
+        }
+
+        .symposium {
+            background-color: white;
+            color: black;
+            border-radius: 10px;
+            padding: 40px;
+        }
+
+        .facilitator {
+            background-color: #4B0082;
+            color: white;
+            border-radius: 10px;
+            padding: 40px;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #000;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+        }
+
+        .footer p {
+            margin: 0;
+            font-size: 14px;
+            color: #bbb;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 36px;
+            }
+
+            .hero p {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="/">
+            <img src="CAA.logo.png" alt="Tafakari Symposium" class="me-2">
+            <span class="org-name">Center for Urban Mission</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="/programmes-and-prizes">Programmes</a></li>
+                <li class="nav-item"><a class="nav-link" href="/policy-and-resources">Policy & Resources</a></li>
+                <li class="nav-item"><a class="nav-link" href="/education-and-skills">Education & Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="/news-and-events">News & Events</a></li>
+                <li class="nav-item"><a class="nav-link" href="/about-us">About Us</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Upcoming Symposium</h1>
+        <p><strong>Education with Informal Settlement Leaders in Nairobi:</strong> PEDAGOGY FROM BELOW</p>
+        <p><strong>Location:</strong> Nairobi, Kenya | <strong>Date:</strong> 27th February 2025</p>
+        <p>Applications are now open!</p>
+        <a href="form.html" class="btn">Book Now</a>
+    </section>
+
+    <!-- Symposium Overview -->
+    <section class="section">
+    <div class="container symposium">
+        <h2>Symposia Overview</h2>
+        <p>
+            The upcoming Tafakari Symposium, <strong>"Theological Education with Informal Settlement Leaders in Nairobi: Pedagogy from Below"</strong>, will take place on <strong>27th February 2025</strong> in Nairobi, Kenya, in partnership with the 
+            <a href="https://cum.churcharmyafrica.net/" target="_blank">Center for Urban Mission</a>.
+        </p>
+        <p>
+            This symposium will explore the transformative role of theological education in empowering informal settlement leaders through a bottom-up, community-centered approach. Participants will engage in discussions on:
+        </p>
+        <ul>
+            <li>Theology from below: Understanding faith and ministry in marginalized communities.</li>
+            <li>Contextual theological education: Adapting pedagogy to serve informal settlements effectively.</li>
+            <li>Urban mission and social transformation: The church’s role in justice, advocacy, and community renewal.</li>
+        </ul>
+        <p>
+            This interactivee event will bring together theologians, church leaders, and practitioners committed to reshaping theological education to better serve urban informal settlements.
+        </p>
+    </div>
+</section>
+
+<section class="section">
+        <div class="container facilitator">
+            <h2>Facilitator</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="DR.Seth.png" class="img-fluid rounded" alt="Facilitator">
+                </div>
+                <div class="col-md-8">
+                    <h3>DR SHETH O. OTIENO</h3>
+                    <p>Dr Sheth O. Otieno is the Nairobi Transformational Network Coordinator for Resonate Global Mission and the esteemed Founder of Brighter Future Foundation, is a Christian urban theologian, missiologist, and theological educator. His work demonstrates his passion for incarnational ministry, theological education, community transformation, and urban mission. He integrates pedagogy from below, cross-cultural ministry, and a biblical vision for urban renewal, focusing on empowering marginalised communities through faith, education, and justice.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Symposium Format -->
+    <section class="section">
+        <div class="container symposium">
+            <h3>Symposium Format</h3>
+            <ul>
+                <li><strong>Event structure:</strong> Cross-cutting, challenge-led sessions bridging different disciplines.</li>
+                <li><strong>Arrival:</strong> 27th February, welcome breakfast & networking.</li>
+                <li><strong>Participants:</strong> Experts from multiple disciplines worldwide.</li>
+                <li><strong>Cost:</strong> Free event!</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Post-Event Funding -->
+    <section class="section">
+    <div class="container symposium">
+        <h2>Pre-Event Reflection: Preparing for Transformative Dialogue</h2>
+        <p>
+            As we approach the <strong>Tafakari Symposium 2025</strong>, we are invited to reflect on the significance of 
+            <strong>theological education in informal settlements</strong> and how <strong>pedagogy from below</strong> 
+            can reshape our understanding of ministry, learning, and community transformation.
+        </p>
+        <p>
+            For decades, theological education has often followed a <em>top-down model</em>, where formal institutions dictate 
+            the frameworks of learning. However, in the realities of <strong>Nairobi’s informal settlements</strong>, faith is not 
+            merely theoretical—it is deeply practical, lived out in the struggles, resilience, and daily experiences of marginalized communities.
+        </p>
+        <p>
+            This symposium seeks to challenge and transform conventional theological approaches by asking:
+        </p>
+        <ul>
+            <li><strong>How can we create theological education that listens to and learns from grassroots leaders?</strong></li>
+            <li><strong>What does “pedagogy from below” look like in practice, and how can it empower communities?</strong></li>
+            <li><strong>How can urban theology respond to issues of justice, poverty, and social transformation?</strong></li>
+        </ul>
+        <p>
+            As participants, we are encouraged to come with <strong>open hearts and minds</strong>—not just to share knowledge, but 
+            to <strong>listen deeply</strong>, <strong>engage authentically</strong>, and <strong>co-create new models of learning</strong> 
+            that reflect the realities and aspirations of informal settlement leaders.
+        </p>
+        <h3>Next Steps Before the Event:</h3>
+        <ul>
+            <li>Reflect on your <strong>own experiences of theological learning</strong>—has it been accessible and relevant to grassroots realities?</li>
+            <li>Engage with <strong>writings or case studies</strong> on theology and informal settlements.</li>
+            <li>Come ready to <strong>exchange ideas, share stories, and embrace new ways of thinking</strong> about faith and education.</li>
+        </ul>
+    </div>
+</section>
+
+
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Tafakari Symposium. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Symposium Application Form</title>
+
+    <!-- Bootstrap & Font Awesome -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .container {
+            max-width: 800px;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            margin-top: 50px;
+        }
+
+        .form-label {
+            font-weight: 600;
+        }
+
+        .btn-submit {
+            background-color: #4B0082;
+            color: white;
+            padding: 10px 20px;
+            font-size: 18px;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+
+        .btn-submit:hover {
+            background-color: #5A00A1;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h2 class="text-center mb-4">Tafakari Symposium</h2>
+        
+        <form action="process_form.php" method="post" class="container bg-light text-dark p-4 rounded">
+            <h2 class="mb-4">Application Form</h2>
+        
+            <div class="mb-3">
+                <label for="first_name" class="form-label">First Name *</label>
+                <input type="text" id="first_name" name="first_name" class="form-control" required>
+            </div>
+        
+            <div class="mb-3">
+                <label for="last_name" class="form-label">Last Name *</label>
+                <input type="text" id="last_name" name="last_name" class="form-control" required>
+            </div>
+        
+            <div class="mb-3">
+                <label for="gender" class="form-label">Gender *</label>
+                <select id="gender" name="gender" class="form-select" required>
+                    <option value="">Select Gender</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+            </div>
+        
+            <div class="mb-3">
+                <label for="organisation" class="form-label">Organisation/Institution/Company *</label>
+                <input type="text" id="organisation" name="organisation" class="form-control" required>
+            </div>
+        
+            <div class="mb-3">
+                <label for="position" class="form-label">Position/Job Title *</label>
+                <input type="text" id="position" name="position" class="form-control" required>
+            </div>
+        
+            <div class="mb-3">
+                <label for="email" class="form-label">Email Address *</label>
+                <input type="email" id="email" name="email" class="form-control" required>
+            </div>
+        
+            <div class="mb-3">
+                <label for="phone" class="form-label">Telephone Number *</label>
+                <input type="text" id="phone" name="phone" class="form-control" required>
+            </div>
+        
+            <div class="mb-3">
+                <label for="country" class="form-label">Which country are you based in? *</label>
+                <input type="text" id="country" name="country" class="form-control" required>
+            </div>
+        
+            <div class="mb-3">
+                <label for="state" class="form-label">Which state/region or county are you based in? *</label>
+                <input type="text" id="state" name="state" class="form-control" required>
+            </div>
+        
+            <div class="mb-3">
+                <label for="career_stage" class="form-label">Which stage of your career best describes your current position and experience? *</label>
+                <input type="text" id="career_stage" name="career_stage" class="form-control" required>
+            </div>
+        
+            <div class="mb-3">
+                <label for="sector" class="form-label">Which sector do you mainly work in / represent? *</label>
+                <input type="text" id="sector" name="sector" class="form-control" required>
+            </div>
+        
+            <div class="mb-3">
+                <label for="background" class="form-label">Please indicate which broad background you belong to: *</label>
+                <input type="text" id="background" name="background" class="form-control" required>
+            </div>
+        
+            <div class="mb-3">
+                <label for="expertise" class="form-label">Be more specific: what is your area of expertise and how do you define what you do? *</label>
+                <textarea id="expertise" name="expertise" class="form-control" rows="3" required></textarea>
+            </div>
+        
+            <div class="mb-3">
+                <label for="event_goals" class="form-label">In 50 words or less, what do you hope to gain from attending? *</label>
+                <textarea id="event_goals" name="event_goals" class="form-control" rows="2" required></textarea>
+            </div>
+        
+            <div class="mb-3">
+                <label for="personal_connection" class="form-label">In 100 words or less, do you have a personal connection to the theme? *</label>
+                <textarea id="personal_connection" name="personal_connection" class="form-control" rows="3" required></textarea>
+            </div>
+        
+            <div class="mb-3">
+                <label for="thematic_activities" class="form-label">List any relevant activities/programmes you have been involved in *</label>
+                <textarea id="thematic_activities" name="thematic_activities" class="form-control" rows="3" required></textarea>
+            </div>
+        
+            <div class="mb-3">
+                <label for="heard_about" class="form-label">How did you hear about this event? *</label>
+                <select id="heard_about" name="heard_about" class="form-select" required>
+                    <option value="">Select an Option</option>
+                    <option value="Website">Website</option>
+                    <option value="Social Media">Social Media</option>
+                    <option value="Email">Email</option>
+                    <option value="Friend/Colleague">Friend/Colleague</option>
+                    <option value="Organization">Your Organization</option>
+                    <option value="Other">Other (Specify below)</option>
+                </select>
+            </div>
+        
+            <div class="mb-3">
+                <label for="heard_about_other" class="form-label">If 'Other', please specify:</label>
+                <input type="text" id="heard_about_other" name="heard_about_other" class="form-control">
+            </div>
+        
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
